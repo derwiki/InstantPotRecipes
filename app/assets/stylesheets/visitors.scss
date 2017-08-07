@@ -1,3 +1,7 @@
+body {
+  color: #333;
+}
+
 img {
   width: 100%;
   border-radius: 3px;
@@ -6,4 +10,11 @@ img {
 
 .row {
   padding-bottom: 30px;
+}
+
+#recipes {
+  a {
+    color: #eee;
+    font-size: 20px;
+  }
 }

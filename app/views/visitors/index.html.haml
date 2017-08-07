@@ -40,9 +40,15 @@
     .col-sm-8.offset-sm-2
       = image_tag('pho.jpg')
 
-  .row
-    .col-sm-8.offset-sm-2
+  .row#recipes
+    .col-sm-8.offset-sm-2.text-center
       %h2 Best Instant Pot Recipes
+    .col-sm-4.offset-sm-2{ style: "background: url(#{ image_path('chili-bread-in-bowl.jpg') }); background-size: cover; height: 250px" }
+      .pull-right= link_to 'Instant Pot Chili', '/recipes/chili'
+    .col-sm-4{ style: "background: url(#{ image_path('pho.jpg') }); background-size: cover; height: 250px" }
+      .pull-right= link_to 'Instant Pot Pho', '/recipes/pho'
+
+    .col-sm-8.offset-sm-2.text-center
       %ul
         %li= link_to 'Instant Pot Chili', '/recipes/chili'
         %li= link_to 'Instant Pot Yogurt', '#'
