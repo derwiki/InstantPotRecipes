@@ -10,50 +10,36 @@
   .row
     .col-sm-4.offset-sm-2
       %p
-        I'm always on the go and sometimes it's hard to find time to cook. The
+        "I'm always on the go and sometimes it's hard to find time to cook. The
         Instant Pot lets me squeeze four hours of cooking into 30 minutes. What
-        a life saver!
+        a life saver!"
       %i — Lucy in Hawaii
 
     .col-sm-4
       %p
-        The Instant Pot is more like a no-pressure cooker! The 8 quart makes
-        it easy to cook for my family of six, and it makes everyone happy.
+        "The Instant Pot is more like a no-pressure cooker! The 8 quart makes
+        it easy to cook for my family of six, and it makes everyone happy."
       %i — Lea in North Carolina
 
   .row
     .col-sm-4.offset-sm-2
       %p
-        The Instant Pot lets me cook 3x as much food in half the time! Perfect
-        for pig's feet and it replaces my rice cooker entirely. Great for hosting
-        small dinner parties!
+        "The Instant Pot lets me cook 3x as much food in half the time! Perfect
+        for pig's feet and it replaces my rice cooker entirely. Great for
+        hosting small dinner parties!"
       %i — Tianyu in California
 
     .col-sm-4
       %p
-        Before I bought my Instant Pot, cooking really intimidated me. But the
+        "Before I bought my Instant Pot, cooking really intimidated me. But the
         Instant Pot is really dummy proof, and I can easily whip up chili
-        and ratatouille.
+        and ratatouille."
       %i — Adam in Ohio
-
-  .row
-    .col-sm-8.offset-sm-2
-      = image_tag('pho.jpg')
 
   .row#recipes
     .col-sm-8.offset-sm-2.text-center
       %h2 Best Instant Pot Recipes
-    .col-sm-4.offset-sm-2{ style: "background: url(#{ image_path('chili-bread-in-bowl.jpg') }); background-size: cover; height: 250px" }
-      .pull-right= link_to 'Instant Pot Chili', '/recipes/chili'
-    .col-sm-4{ style: "background: url(#{ image_path('pho.jpg') }); background-size: cover; height: 250px" }
-      .pull-right= link_to 'Instant Pot Pho', '/recipes/pho'
-
-    .col-sm-8.offset-sm-2.text-center
-      %ul
-        %li= link_to 'Instant Pot Chili', '/recipes/chili'
-        %li= link_to 'Instant Pot Yogurt', '#'
-        %li= link_to 'Instant Pot Canning', '#'
-        %li= link_to 'Instant Pot Rice', '#'
-        %li= link_to 'Instant Pot Vegetarian Chili', '#'
-        %li= link_to 'Instant Pot Pho', '#'
-        %li= link_to 'Instant Pot Ratatouille', '#'
+    %a.col-sm-4.offset-sm-2.bg-chili{ href: '/recipes/chili' }
+      .pull-right Instant Pot Chili
+    %a.col-sm-4.bg-pho{ href: '/recipes/pho' }
+      .pull-right Instant Pot Pho

@@ -4,7 +4,7 @@ body {
 
 img {
   width: 100%;
-  border-radius: 3px;
+  border-radius: 5px;
   margin-bottom: 30px;
 }
 
@@ -13,9 +13,29 @@ img {
 }
 
 #recipes {
+  .bg-chili,
+  .bg-pho {
+    height: 250px;
+    border-radius: 8px;
+    border: 3px solid white;
+  }
+  .bg-chili {
+    background: url(#{ image_path('chili-bread-in-bowl.jpg') });
+    background-size: cover;
+  }
+
+  .bg-pho {
+    background: url(#{ image_path('pho.jpg') });
+    background-size: cover;
+  }
+
   a {
     color: #eee;
     font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+  }
+  a:hover {
+    text-decoration: none;
   }
 }
 
@@ -28,11 +48,11 @@ img {
 
 // always shows the scrollbar
 ::-webkit-scrollbar {
-	-webkit-appearance: none;
-	width: 7px;
+  -webkit-appearance: none;
+  width: 7px;
 }
 ::-webkit-scrollbar-thumb {
-	border-radius: 4px;
-	background-color: rgba(0, 0, 0, .5);
-	-webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
