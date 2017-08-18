@@ -24,6 +24,11 @@ img {
     background-size: cover;
   }
 
+  .bg-chicken-tikka-masala {
+    background: url(#{ image_path('chicken-tikka-masala-served.jpg') });
+    background-size: cover;
+  }
+
   .bg-pho {
     background: url(#{ image_path('pho.jpg') });
     background-size: cover;
@@ -40,7 +45,7 @@ img {
 }
 
 .recipe-panel {
-  height: 650px;
+  height: 800px;
   overflow-y: scroll;
   background-color: #efefef;
   padding-top: 15px;
