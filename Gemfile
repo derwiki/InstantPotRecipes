@@ -27,6 +27,7 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'haml-rails'
 gem 'jquery-rails'
 gem 'pg'
+gem 'sitemap_generator'
 group :development do
   gem 'better_errors'
   gem 'foreman'
