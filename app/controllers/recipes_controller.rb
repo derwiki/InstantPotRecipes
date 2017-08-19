@@ -1,4 +1,6 @@
 class RecipesController < ApplicationController
+  layout 'recipes'
+
   def chili
   end
 

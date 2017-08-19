@@ -1,0 +1,12 @@
+%head
+  %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
+  %title= content_for?(:title) ? yield(:title) : 'Instant Pot Reviews and Recipes'
+  %meta{name: "description", content: "#{content_for?(:description) ? yield(:description) : 'Instant Pot Recipes'}"}
+  = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => 'reload'
+  = javascript_include_tag 'application', 'data-turbolinks-track' => 'reload'
+  = csrf_meta_tags
+  %meta{property: "og:url", content: "http://www.instantpotreviews.com#{request[:path]}"}
+  %meta{property: "og:type", content: "article"}
+  %meta{property: "og:title", content: yield(:og_title)}
+  %meta{property: "og:description", content: yield(:og_description)}
+  %meta{property: "og:image", content: yield(:og_image)}
