@@ -1,0 +1,19 @@
+.container
+  .row
+    .col-sm-12.text-center
+      %h1= yield(:h1)
+      %h5= yield(:h5)
+
+  .row
+    .col-sm-8.offset-sm-2
+      = yield(:hero)
+
+  .row
+    .col-sm-6.recipe-panel
+      %h3 Ingredients
+      = yield(:ingredients)
+
+    .col-sm-6.recipe-panel
+      %h3 Instructions
+      = yield(:instructions)
+= render template: "layouts/application"
