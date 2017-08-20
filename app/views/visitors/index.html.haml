@@ -1,47 +1,48 @@
-.container
-  .row
-    .col-sm-12.text-center
-      %h1 Instant Pot Reviews and Recipes
+= content_for(:content) do
+  .container
+    .row
+      .col-sm-12.text-center
+        %h1 Instant Pot Reviews and Recipes
 
-  .row
-    .col-sm-8.offset-sm-2
-      = image_tag('instant-pot-8-quart.jpg')
+    .row
+      .col-sm-8.offset-sm-2
+        = image_tag('instant-pot-8-quart.jpg')
 
-  .row
-    .col-sm-4.offset-sm-2
-      %p
-        "I'm always on the go and sometimes it's hard to find time to cook. The
-        Instant Pot lets me squeeze four hours of cooking into 30 minutes. What
-        a life saver!"
-      %i — Lucy in Hawaii
+    .row
+      .col-sm-4.offset-sm-2
+        %p
+          "I'm always on the go and sometimes it's hard to find time to cook. The
+          Instant Pot lets me squeeze four hours of cooking into 30 minutes. What
+          a life saver!"
+        %i — Lucy in Hawaii
 
-    .col-sm-4
-      %p
-        "The Instant Pot is more like a no-pressure cooker! The 8 quart makes
-        it easy to cook for my family of six, and it makes everyone happy."
-      %i — Lea in North Carolina
+      .col-sm-4
+        %p
+          "The Instant Pot is more like a no-pressure cooker! The 8 quart makes
+          it easy to cook for my family of six, and it makes everyone happy."
+        %i — Lea in North Carolina
 
-  .row
-    .col-sm-4.offset-sm-2
-      %p
-        "The Instant Pot lets me cook 3x as much food in half the time.
-        Great for hosting small dinner parties!"
-      %i — Tanya in California
+    .row
+      .col-sm-4.offset-sm-2
+        %p
+          "The Instant Pot lets me cook 3x as much food in half the time.
+          Great for hosting small dinner parties!"
+        %i — Tanya in California
 
-    .col-sm-4
-      %p
-        "Before I bought my Instant Pot, cooking really intimidated me. But the
-        Instant Pot is really dummy proof, and I can easily whip up chili
-        and ratatouille."
-      %i — Adam in Ohio
+      .col-sm-4
+        %p
+          "Before I bought my Instant Pot, cooking really intimidated me. But the
+          Instant Pot is really dummy proof, and I can easily whip up chili
+          and ratatouille."
+        %i — Adam in Ohio
 
-  .row#recipes
-    .col-sm-8.offset-sm-2.text-center
-      %h2 Best Instant Pot Recipes
+    .row#recipes
+      .col-sm-8.offset-sm-2.text-center
+        %h2 Best Instant Pot Recipes
 
-    %a.col-sm-4.offset-sm-2.bg-chili{ href: '/recipes/chili' }
-      .pull-right Instant Pot Chili
-    %a.col-sm-4.bg-chicken-tikka-masala{ href: '/recipes/chicken-tikka-masala' }
-      .pull-right Chicken Tikka Masala
-    %a.col-sm-4.offset-sm-2.bg-pho{ href: '/recipes/pho' }
-      .pull-right Instant Pot Pho
+      %a.col-sm-4.offset-sm-2.bg-chili{ href: '/recipes/chili' }
+        .pull-right Instant Pot Chili
+      %a.col-sm-4.bg-chicken-tikka-masala{ href: '/recipes/chicken-tikka-masala' }
+        .pull-right Chicken Tikka Masala
+      %a.col-sm-4.offset-sm-2.bg-pho{ href: '/recipes/pho' }
+        .pull-right Instant Pot Pho
