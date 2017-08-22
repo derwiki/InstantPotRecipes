@@ -20,6 +20,7 @@ img {
 #recipes {
   .bg-chili,
   .bg-chicken-tikka-masala,
+  .bg-saag-paneer,
   .bg-pho {
     height: 250px;
     border-radius: 8px;
@@ -32,6 +33,11 @@ img {
 
   .bg-chicken-tikka-masala {
     background: url(#{ image_path('chicken-tikka-masala-served.jpg') });
+    background-size: cover;
+  }
+
+  .bg-saag-paneer {
+    background: url(#{ image_path('saag-vindaloo-naan-plated.jpg') });
     background-size: cover;
   }
 

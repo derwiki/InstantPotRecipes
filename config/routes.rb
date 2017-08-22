@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     collection do
       get "chili"
       get "chicken-tikka-masala"
+      get "saag-paneer"
     end
   end
 end

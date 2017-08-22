@@ -1,0 +1,55 @@
+- content_for(:title) {"Instant Pot Saag Paneer Recipe - Instant Pot Reviews"}
+- content_for(:h1) {"Instant Pot Saag Paneer"}
+- content_for(:h5) {"Serves 4. Prep time 45 minutes, cooking time 1 hour."}
+- content_for(:hero) {image_tag('saag-vindaloo-naan-plated.jpg')}
+- content_for(:og_image) {image_url('saag-vindaloo-naan-plated.jpg')}
+- content_for(:og_title) {"Instant Pot Saag Paneer Recipe"}
+- content_for(:og_description) {"Serves 4. Prep time 30 minutes, cooking time 1 hour."}
+
+- content_for(:ingredients) do
+  %ul
+    %li 2 lb spinach, roughly chopped
+    %li 1 lb mustard leaves, roughly chopped
+    %li 2 medium onions, diced
+    %li 6 cloves garlic, minced
+    %li 1½ tbsp freshly grated ginger
+    %li 2 tbsp butter
+    %li ½ cup plain yogurt
+    %li 12 oz paneer, cut into small cubes
+  = image_tag('saag-spinach.jpg')
+
+  %h3 Spice Mix
+  %ul
+    %li 1 tsp turmeric
+    %li 1½ tsp cumin
+    %li 1½ tsp ground coriander
+    %li ½ tsp cayenne
+    %li ½ tsp black pepper
+  = image_tag('saag-spices.jpg')
+
+
+- content_for(:instructions) do
+  %ol
+    %li Press the "Sauté" button on the Instant Pot and wait until the display indicates the insert is heated (it’ll say "On").
+    %li Add the butter. Once melted, add the onions, garlic, and ginger. Cook for 3-5 minutes.
+    %li
+      %div Stir in the Spice Mix and add the spinach and mustard leaves. Cook until slightly wilted.
+      = image_tag('saag-cooking-early.jpg')
+
+    %li Press "Keep Warm/Cancel" button.
+    %li
+      %div Set the pressure cooker:
+      %ol
+        %li Close and lock the lid.
+        %li Make sure the steam vent is in the "Sealing" position.
+        %li Press "Poultry" to cook for 15 minutes.
+
+    %li
+      %div After the Instant Pot is done cooking, allow the pressure to naturally release (about 15 minutes).
+      = image_tag('saag-cooking-later.jpg')
+
+    %li Pour contents of the Instant Pot into a blender and pulse to desired consistency.
+
+    %li
+      %div Stir in yogurt and paneer, and "Sauté" on low for 5 minutes.
+      = image_tag('saag-saute.jpg')

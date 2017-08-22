@@ -6,4 +6,7 @@ class RecipesController < ApplicationController
 
   def chicken_tikka_masala
   end
+
+  def saag_paneer
+  end
 end
