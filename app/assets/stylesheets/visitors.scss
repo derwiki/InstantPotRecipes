@@ -21,6 +21,7 @@ img {
   .bg-chili,
   .bg-chicken-tikka-masala,
   .bg-saag-paneer,
+  .bg-congee,
   .bg-pho {
     height: 250px;
     border-radius: 8px;
@@ -43,6 +44,11 @@ img {
 
   .bg-pho {
     background: url(#{ image_path('pho.jpg') });
+    background-size: cover;
+  }
+
+  .bg-congee {
+    background: url(#{ image_path('chinese-century-egg-and-pork-congee-cover.jpg') });
     background-size: cover;
   }
 

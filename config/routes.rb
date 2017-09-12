@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       get "chili"
       get "chicken-tikka-masala"
       get "saag-paneer"
+      get "chinese-century-egg-and-pork-congee"
     end
   end
 end

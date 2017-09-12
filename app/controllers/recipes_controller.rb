@@ -9,4 +9,7 @@ class RecipesController < ApplicationController
 
   def saag_paneer
   end
+
+  def chinese_century_egg_and_pork_congee
+  end
 end
